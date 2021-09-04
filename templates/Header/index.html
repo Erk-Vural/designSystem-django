@@ -1,0 +1,23 @@
+<div class="Header">
+    <div class="wrapper">
+        <div class="CompanyLogo">
+            <img src="" alt="Company Logo"/>
+        </div>
+        <!-- Page -->
+        {% block searchBar %}
+            {% include "Header/searchbar.html" %}
+        {% endblock %}
+        <!-- Page -->
+        {% block options %}
+            {% include "Header/options.html" %}
+        {% endblock %}
+        <!-- Page -->
+        {% block notifications %}
+            {% include "Header/notifications.html" %}
+        {% endblock %}
+        <!-- Profile -->
+        {% block profile %}
+            {% include "Header/profile.html" %}
+        {% endblock %}
+    </div>
+</div>

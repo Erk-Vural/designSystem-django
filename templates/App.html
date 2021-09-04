@@ -1,0 +1,20 @@
+{% load sass_tags %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="{% sass_src 'Main/css/main.scss' %}" rel="stylesheet" type="text/css"/>
+
+    <title>System Design</title>
+</head>
+<body>
+<!-- Page -->
+{% block page %}
+  {% include "Page/index.html" %}
+{% endblock %}
+
+</body>
+</html>

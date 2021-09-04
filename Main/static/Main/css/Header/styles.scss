@@ -1,0 +1,83 @@
+.Header {
+  width: 50%;
+  margin: auto auto 2em;
+
+  .itemBtn {
+    border: none;
+    margin-left: 0;
+  }
+}
+
+.CompanyLogo img {
+  width: 8em;
+  height: 4em;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 8fr 1fr 1fr 4fr;
+}
+
+.SearchBar {
+  margin-top: .5em;
+
+  input {
+    width: 80%;
+    margin: .5em;
+    border: none;
+  }
+
+  img {
+    width: 1em;
+    height: 1em;
+    margin: .5em .5em .2em .5em;
+  }
+
+  hr {
+    float: left;
+    width: 80%;
+    color: #d8d8d8;
+  }
+}
+
+.Profile {
+  float: right;
+
+  .info {
+    width: 60%;
+    display: inline-block;
+  }
+
+  h1 {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: small;
+  }
+
+  img {
+    display: inline;
+    width: 3em;
+    height: 3em;
+  }
+
+  .down {
+    margin-top: 1em;
+    float: right;
+
+    img {
+      float: right;
+      margin-top: 1em;
+      width: 1em;
+      height: 1em;
+    }
+  }
+}
+
+.Notifications img,
+.Menu img {
+  width: 1.5em;
+  height: 1.5em;
+  margin-top: 1em;
+}
