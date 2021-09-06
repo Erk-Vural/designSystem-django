@@ -1,0 +1,33 @@
+
+.content {
+  width: 50%;
+  margin: auto auto 2em;
+
+  h1 {
+    font-size: 1.4em;
+    margin-bottom: 0.8em;
+  }
+
+  .Arrange {
+    p {
+      float: left;
+      font-size: small;
+      color: #6464c8;
+    }
+
+    .btn {
+      float: left;
+      border: none;
+      font-size: medium;
+      margin: auto 0.5em;
+      width : 9em;
+      height : 2em;
+    }
+
+    img {
+      margin-left: 0.7em;
+      width: 0.7em;
+      height: 0.7em;
+    }
+  }
+}

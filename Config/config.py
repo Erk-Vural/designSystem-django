@@ -1,1 +1,3 @@
-# Empty for now because project using sqlite now.
+# admin name = 'test'
+# admin mail = 'test@mail.com'
+# admin password = 'test'

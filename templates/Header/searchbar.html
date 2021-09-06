@@ -1,8 +1,10 @@
-    <div class="SearchBar">
+{% load static %}
+
+<div class="SearchBar">
       <form>
         <input type="text" placeholder="Search.." />
         <button type="submit">
-          <img src="../Header/search.png" alt="search-bar"></img>
+            <img src="{% static "Main/images/Header/search.png" %}" alt="srcbar" />
         </button>
       </form>
       <hr />

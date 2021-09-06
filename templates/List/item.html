@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% load static %}
 
-</body>
-</html>
+<div class="Item">
+    <img src="{% static "Main/images/logo192.png" %}" alt="Item_icon" />
+    <div class="info">
+        <h1>{props.title}</h1>
+        <p>{props.description}</p>
+    </div>
+</div>

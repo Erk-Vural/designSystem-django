@@ -1,7 +1,9 @@
+{% load static %}
+
 <div class="Header">
     <div class="wrapper">
         <div class="CompanyLogo">
-            <img src="" alt="Company Logo"/>
+            <img src="{% static "Main/images/Header/company.png" %}" alt="Company Logo"/>
         </div>
         <!-- Page -->
         {% block searchBar %}
