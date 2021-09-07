@@ -1,5 +1,5 @@
 {% load static %}
-<div class="Grid">
+<div class="List">
     <div class="hideList">
         <button onClick={getHidden}>
             <span>Hide List</span>
@@ -9,10 +9,19 @@
 
     {% include "List/Options/index.html" %}
 
-    <!-- List -->
-    {% block list %}
+    <div class="listTop">
+        <p class="totalResults">Showing {{ total_result }} results</p>
+
+        <button class="listBtn" onClick={getHidden}>
+            <img src="{% static "Main/images/List/list-btn.png" %}" alt="list-btn"/>
+        </button>
+    </div>
+
+    <div class="listItems">
         {% for item in items %}
             {% include "List/item.html" %}
         {% endfor %}
-    {% endblock %}
+    </div>
+
+
 </div>

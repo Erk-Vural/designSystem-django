@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% load static %}
 
-</body>
-</html>
+<div class="Options">
+    {% include "List/Options/list-by.html" %}
+    {% include "List/Options/tag.html" %}
+    {% include "List/Options/filter-by.html" %}
+    {% include "List/Options/sort.html" %}
+    {% include "List/Options/display.html" %}
+</div>

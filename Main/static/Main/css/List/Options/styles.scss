@@ -1,0 +1,65 @@
+.Options {
+  color: #6464c8;
+  font-size: small;
+}
+
+.Options p {
+  display: inline;
+}
+
+.Options .itemBtn {
+  float: right;
+  border: none;
+  size: small;
+  margin: auto .5em auto .4em;
+  padding: 0px 0px 0px 0px;
+}
+
+.Options img{
+  width: 1em;
+  height: 1em;
+  margin-right: .2em;
+}
+
+.Display {
+  float: right;
+}
+
+.Display button {
+  padding: 0.1em;
+  border: none;
+}
+
+.Display .listImg {
+  width: 2.2em;
+  height: 1.2em;
+  margin: 0;
+}
+
+.Display .listBtn:focus {
+  padding: 0;
+  border: 2px #6464c8 solid;
+  border-radius: 0.5em;
+  box-shadow: .1em 0.1em 0.1em 0.1em #ccc;
+}
+
+.Display .gridImg {
+  width: 1.2em;
+  height: 1.2em;
+  padding: .1em .3em;
+}
+
+.Display .gridBtn:focus {
+  padding: 0;
+  border: 2px #6464c8 solid;
+  border-radius: 0.5em;
+  box-shadow: 0.1em 0.1em 0.1em 0.1em #ccc;
+}
+
+.FilterBy,
+.ListBy,
+.Sort,
+.Tag {
+  display: inline-block;
+  margin: 0 1em 1em 1em;
+}

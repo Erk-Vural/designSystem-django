@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+{% load static %}
+<div class="ListBy">
+    <img src="{% static "Main/images/List/Options/filter.png" %}" alt="filter by"/>
+    <p>List by</p>
+    {% include "List/menu.html" %}
+</div>

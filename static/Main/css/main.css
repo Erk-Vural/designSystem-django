@@ -68,15 +68,13 @@
     float: right; }
     .Profile .down img {
       float: right;
-      margin-top: 1em;
       width: 1em;
       height: 1em; }
 
 .Notifications img,
 .Menu img {
   width: 1.5em;
-  height: 1.5em;
-  margin-top: 1em; }
+  height: 1.5em; }
 
 .Menu {
   /* Dropdown Button */
@@ -110,17 +108,70 @@
   .Menu .dropdown:hover .btn {
     background-color: #d8d8d8; }
 
+.Options {
+  color: #6464c8;
+  font-size: small; }
+
+.Options p {
+  display: inline; }
+
+.Options .itemBtn {
+  float: right;
+  border: none;
+  size: small;
+  margin: auto .5em auto .4em;
+  padding: 0px 0px 0px 0px; }
+
+.Options img {
+  width: 1em;
+  height: 1em;
+  margin-right: .2em; }
+
+.Display {
+  float: right; }
+
+.Display button {
+  padding: 0.1em;
+  border: none; }
+
+.Display .listImg {
+  width: 2.2em;
+  height: 1.2em;
+  margin: 0; }
+
+.Display .listBtn:focus {
+  padding: 0;
+  border: 2px #6464c8 solid;
+  border-radius: 0.5em;
+  box-shadow: .1em 0.1em 0.1em 0.1em #ccc; }
+
+.Display .gridImg {
+  width: 1.2em;
+  height: 1.2em;
+  padding: .1em .3em; }
+
+.Display .gridBtn:focus {
+  padding: 0;
+  border: 2px #6464c8 solid;
+  border-radius: 0.5em;
+  box-shadow: 0.1em 0.1em 0.1em 0.1em #ccc; }
+
+.FilterBy,
+.ListBy,
+.Sort,
+.Tag {
+  display: inline-block;
+  margin: 0 1em 1em 1em; }
+
 .hideList {
   text-align: center;
   margin: 1em; }
-
-.hideList span {
-  margin-left: 2em; }
-
-.hideList img {
-  width: 0.8em;
-  height: 0.8em;
-  margin: auto 2em auto 1em; }
+  .hideList span {
+    margin-left: 2em; }
+  .hideList img {
+    width: 0.8em;
+    height: 0.8em;
+    margin: auto 2em auto 1em; }
 
 .totalResults {
   color: #929292;
@@ -132,10 +183,9 @@
   float: right;
   padding: 0.5em;
   border: none; }
-
-.listBtn img {
-  width: 1.2em;
-  height: 1.2em; }
+  .listBtn img {
+    width: 1.2em;
+    height: 1.2em; }
 
 .listTop {
   margin: 1em auto 0.5em; }
@@ -162,55 +212,50 @@
   height: 14em;
   margin: auto auto 0.5em 0.5em;
   float: left; }
-
-.Grid .Item img {
-  height: 4em;
-  width: 4em;
-  margin: 1.5em auto;
-  display: block; }
-
-.Grid .Item .info {
-  margin: 0 0 0 1em;
-  text-align: left; }
-
-.Grid .Item h1 {
-  margin: 0;
-  padding: 0; }
-
-.Grid .Item p {
-  font-size: 0.7em;
-  margin: 0;
-  padding: 0; }
+  .Grid .Item img {
+    height: 4em;
+    width: 4em;
+    margin: 1.5em auto;
+    display: block; }
+  .Grid .Item .info {
+    margin: 0 0 0 1em;
+    text-align: left; }
+  .Grid .Item h1 {
+    margin: 0;
+    padding: 0; }
+  .Grid .Item p {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 0; }
+  .Grid .Item h1 {
+    font-size: 1em;
+    margin: 1em auto auto;
+    text-align: left; }
 
 .List .Item {
   border-radius: 0.5em;
   box-shadow: 0.1em 0.1em 0.1em 0.1em #ccc;
   margin: auto auto 1em;
   padding: 0.7em; }
-
-.List .Item img {
-  float: left;
-  margin: 1em;
-  height: 1.4em;
-  width: 1.4em; }
-
-.List .Item p {
-  font-size: small;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  text-align: left;
-  display: inline; }
-
-.List .itemBtn {
-  float: right;
-  border: none;
-  margin: auto; }
-
-.Grid .Item h1,
-.List .Item h1 {
-  font-size: 1em;
-  margin: 1em auto auto;
-  text-align: left; }
+  .List .Item img {
+    float: left;
+    margin: 1em;
+    height: 1.4em;
+    width: 1.4em; }
+  .List .Item p {
+    font-size: small;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: left;
+    display: inline; }
+  .List .Item .itemBtn {
+    float: right;
+    border: none;
+    margin: auto; }
+  .List .Item h1 {
+    font-size: 1em;
+    margin: 1em auto auto;
+    text-align: left; }
 
 footer {
   clear: both;
@@ -239,7 +284,7 @@ footer {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  font-family: Montserrat, sans-serif; }
 
 button {
   background-color: #fff;

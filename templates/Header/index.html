@@ -6,20 +6,9 @@
             <img src="{% static "Main/images/Header/company.png" %}" alt="Company Logo"/>
         </div>
         <!-- Page -->
-        {% block searchBar %}
-            {% include "Header/searchbar.html" %}
-        {% endblock %}
-        <!-- Page -->
-        {% block options %}
-            {% include "Header/options.html" %}
-        {% endblock %}
-        <!-- Page -->
-        {% block notifications %}
-            {% include "Header/notifications.html" %}
-        {% endblock %}
-        <!-- Profile -->
-        {% block profile %}
-            {% include "Header/profile.html" %}
-        {% endblock %}
+        {% include "Header/searchbar.html" %}
+        {% include "Header/options.html" %}
+        {% include "Header/notifications.html" %}
+        {% include "Header/profile.html" %}
     </div>
 </div>

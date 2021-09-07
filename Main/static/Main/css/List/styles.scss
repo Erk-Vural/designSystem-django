@@ -1,16 +1,16 @@
+@import "Options/styles";
+
 .hideList {
   text-align: center;
   margin: 1em;
-}
-
-.hideList span {
-  margin-left: 2em;
-}
-
-.hideList img {
-  width: 0.8em;
-  height: 0.8em;
-  margin: auto 2em auto 1em;
+  span {
+    margin-left: 2em;
+  }
+  img {
+    width: 0.8em;
+    height: 0.8em;
+    margin: auto 2em auto 1em;
+  }
 }
 
 .totalResults {
@@ -24,11 +24,10 @@
   float: right;
   padding: 0.5em;
   border: none;
-}
-
-.listBtn img {
-  width: 1.2em;
-  height: 1.2em;
+  img {
+    width: 1.2em;
+    height: 1.2em;
+  }
 }
 
 .listTop {
@@ -52,70 +51,70 @@
   clear: both;
 }
 
-.Grid .Item {
-  background: #fff;
-  border-radius: 0.5em;
-  box-shadow: 0.1em 0.1em 0.1em 0.1em #ccc;
-  width: 32.3%;
-  height: 14em;
-  margin: auto auto 0.5em 0.5em;
-  float: left;
+.Grid {
+  .Item {
+    background: #fff;
+    border-radius: 0.5em;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em #ccc;
+    width: 32.3%;
+    height: 14em;
+    margin: auto auto 0.5em 0.5em;
+    float: left;
+    img {
+      height: 4em;
+      width: 4em;
+      margin: 1.5em auto;
+      display: block;
+    }
+    .info {
+      margin: 0 0 0 1em;
+      text-align: left;
+    }
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+    p {
+      font-size: 0.7em;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      font-size: 1em;
+      margin: 1em auto auto;
+      text-align: left;
+    }
+  }
 }
 
-.Grid .Item img {
-  height: 4em;
-  width: 4em;
-  margin: 1.5em auto;
-  display: block;
-}
-
-.Grid .Item .info {
-  margin: 0 0 0 1em;
-  text-align: left;
-}
-
-.Grid .Item h1 {
-  margin: 0;
-  padding: 0;
-}
-
-.Grid .Item p {
-  font-size: 0.7em;
-  margin: 0;
-  padding: 0;
-}
-
-.List .Item {
-  border-radius: 0.5em;
-  box-shadow: 0.1em 0.1em.1em.1em #ccc;
-  margin: auto auto 1em;
-  padding: 0.7em;
-}
-
-.List .Item img {
-  float: left;
-  margin: 1em;
-  height: 1.4em;
-  width: 1.4em;
-}
-
-.List .Item p {
-  font-size: small;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  text-align: left;
-  display: inline;
-}
-
-.List .itemBtn {
-  float: right;
-  border: none;
-  margin: auto;
-}
-
-.Grid .Item h1,
-.List .Item h1 {
-  font-size: 1em;
-  margin: 1em auto auto;
-  text-align: left;
+.List {
+  .Item {
+    border-radius: 0.5em;
+    box-shadow: 0.1em 0.1em.1em.1em #ccc;
+    margin: auto auto 1em;
+    padding: 0.7em;
+    img {
+      float: left;
+      margin: 1em;
+      height: 1.4em;
+      width: 1.4em;
+    }
+    p {
+      font-size: small;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      text-align: left;
+      display: inline;
+    }
+    .itemBtn {
+      float: right;
+      border: none;
+      margin: auto;
+    }
+    h1 {
+      font-size: 1em;
+      margin: 1em auto auto;
+      text-align: left;
+    }
+  }
 }
