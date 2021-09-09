@@ -8,7 +8,7 @@
     float: left;
     font-size: small;
     color: #6464c8; }
-  .content .Arrange .btn {
+  .content .Arrange .menuBtn {
     float: left;
     border: none;
     font-size: medium;
@@ -79,9 +79,8 @@
 .Menu {
   /* Dropdown Button */
   /* The container <div> - needed to position the dropdown content */
-  /* Dropdown Content (Hidden by Default) */
-  /* Show the dropdown menu on hover */ }
-  .Menu .btn {
+  /* Dropdown Content (Hidden by Default) */ }
+  .Menu .menuBtn {
     border: none;
     width: 1.5em;
     height: 1.5em;
@@ -103,10 +102,6 @@
       display: block; }
     .Menu .content a:hover {
       background-color: #ddd; }
-  .Menu .dropdown:hover .content {
-    display: block; }
-  .Menu .dropdown:hover .btn {
-    background-color: #d8d8d8; }
 
 .Options {
   color: #6464c8;

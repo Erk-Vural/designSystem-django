@@ -83,7 +83,7 @@
 
 .Menu {
   /* Dropdown Button */
-  .btn {
+  .menuBtn {
     border: none;
     width: 1.5em;
     height: 1.5em;
@@ -113,16 +113,6 @@
   }
   a:hover {
     background-color: #ddd;
-  }
-  }
-
-  /* Show the dropdown menu on hover */
-  .dropdown:hover {
-    .content {
-    display: block;
-  }
-  .btn {
-    background-color: #d8d8d8;
   }
   }
 
