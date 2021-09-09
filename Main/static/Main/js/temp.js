@@ -23,12 +23,14 @@ $(document).ready(function () {
     let isClickedHideList = false;
     // Hide List
     $(".hideList, .listTop .listBtn").click(function () {
-        if ($(".listItems").css({"display": "block"}) && !isClickedHideList) {
-            $(".listItems").css({"display": "none"});
+        if ($(this).find(".listItems").css({"display": "block"}) && !isClickedHideList) {
+            $(this).find(".listItems").css({"display": "none"});
             isClickedHideList = true;
         } else {
-            $(".listItems").css({"display": "block"});
+            $(this).find(".listItems").css({"display": "block"});
             isClickedHideList = false;
         }
     })
+
+
 });

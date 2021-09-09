@@ -102,6 +102,8 @@
       display: block; }
     .Menu .content a:hover {
       background-color: #ddd; }
+    .Menu .content .btn {
+      background-color: #d8d8d8; }
 
 .Options {
   color: #6464c8;
@@ -114,13 +116,13 @@
   float: right;
   border: none;
   size: small;
-  margin: auto .5em auto .4em;
+  margin: auto 0.5em auto 0.4em;
   padding: 0px 0px 0px 0px; }
 
 .Options img {
   width: 1em;
   height: 1em;
-  margin-right: .2em; }
+  margin-right: 0.2em; }
 
 .Display {
   float: right; }
@@ -138,12 +140,12 @@
   padding: 0;
   border: 2px #6464c8 solid;
   border-radius: 0.5em;
-  box-shadow: .1em 0.1em 0.1em 0.1em #ccc; }
+  box-shadow: 0.1em 0.1em 0.1em 0.1em #ccc; }
 
 .Display .gridImg {
   width: 1.2em;
   height: 1.2em;
-  padding: .1em .3em; }
+  padding: 0.1em 0.3em; }
 
 .Display .gridBtn:focus {
   padding: 0;
@@ -162,7 +164,7 @@
 .Sort,
 .Tag {
   display: inline-block;
-  margin: 0 2em 1em 1em; }
+  margin: 0 1em 1em 1em; }
 
 .hideList {
   text-align: center;
@@ -232,6 +234,8 @@
     font-size: 1em;
     margin: 1em auto auto;
     text-align: left; }
+  .Grid .Item .menuBtn {
+    display: none; }
 
 .List .Item {
   border-radius: 0.5em;
@@ -249,10 +253,11 @@
     word-wrap: break-word;
     text-align: left;
     display: inline; }
-  .List .Item .itemBtn {
+  .List .Item .Menu {
     float: right;
     border: none;
-    margin: auto; }
+    margin: auto 2em auto auto;
+    padding: 0.3em; }
   .List .Item h1 {
     font-size: 1em;
     margin: 1em auto auto;
@@ -274,11 +279,11 @@ footer {
     font-size: small; }
   footer .footerLinks {
     float: left;
-    margin: .4em; }
+    margin: 0.4em; }
   footer .copyRight {
     float: right;
     font-size: small;
-    margin: .7em 3em auto auto; }
+    margin: 0.7em 3em auto auto; }
 
 .App {
   background-color: rgba(255, 255, 255, 0.6);

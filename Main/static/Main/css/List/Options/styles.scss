@@ -11,14 +11,14 @@
   float: right;
   border: none;
   size: small;
-  margin: auto .5em auto .4em;
+  margin: auto 0.5em auto 0.4em;
   padding: 0px 0px 0px 0px;
 }
 
-.Options img{
+.Options img {
   width: 1em;
   height: 1em;
-  margin-right: .2em;
+  margin-right: 0.2em;
 }
 
 .Display {
@@ -40,13 +40,13 @@
   padding: 0;
   border: 2px #6464c8 solid;
   border-radius: 0.5em;
-  box-shadow: .1em 0.1em 0.1em 0.1em #ccc;
+  box-shadow: 0.1em 0.1em 0.1em 0.1em #ccc;
 }
 
 .Display .gridImg {
   width: 1.2em;
   height: 1.2em;
-  padding: .1em .3em;
+  padding: 0.1em 0.3em;
 }
 
 .Display .gridBtn:focus {
@@ -57,9 +57,9 @@
 }
 
 .menuBtn {
-  margin:0;
-  width:1em;
-  text-overflow:ellipsis;
+  margin: 0;
+  width: 1em;
+  text-overflow: ellipsis;
   white-space: nowrap;
 }
 
@@ -68,5 +68,5 @@
 .Sort,
 .Tag {
   display: inline-block;
-  margin: 0 2em 1em 1em;
+  margin: 0 1em 1em 1em;
 }
