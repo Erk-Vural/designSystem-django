@@ -56,10 +56,17 @@
   box-shadow: 0.1em 0.1em 0.1em 0.1em #ccc;
 }
 
+.menuBtn {
+  margin:0;
+  width:1em;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
 .FilterBy,
 .ListBy,
 .Sort,
 .Tag {
   display: inline-block;
-  margin: 0 1em 1em 1em;
+  margin: 0 2em 1em 1em;
 }
